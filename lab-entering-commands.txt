@@ -15,9 +15,14 @@ Follow the instructions line-by-line.
 $ ls<ENTER>
 
 Copy and paste the output of ls below.
-----------
-Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
 
+----------
+'3D Objects'/        'Creative Cloud Files'/                                             fightcade.log           Music/            NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf                                        Recent@         Tracing/
+ ansel/               Desktop/                                                           fightcade-debug.log    'My Documents'@    NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms  'Saved Games'/   Videos/ 
+ AppData/             Documents/                                                         ggpo-ng.ini             NetHood@          NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms   Searches/
+'Application Data'@   Downloads/                                                         Links/                  NTUSER.DAT        ntuser.ini                                                                                     SendTo@
+ Contacts/           'Elijah.Moyd33@login.cuny.edu Creative Cloud Files (enterprise)'/  'Local Settings'@        ntuser.dat.LOG1   OneDrive/                                                                                     'Start Menu'@
+ Cookies@             Favorites/                                                         MicrosoftEdgeBackups/   ntuser.dat.LOG2   PrintHood@                                                                                     Templates@
 
 ==========
 2a. Type: 
@@ -26,20 +31,20 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-Desktop/    Documents/  Downloads/
+Nothing happens
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-rdrgeerwtger yg erwy brg
+Desktop/   Documents/ Downloads/ 
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
 
-
+ls: cannot access 'D': No such file or directory
 
 ==========
 3.  Type:
@@ -48,7 +53,10 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+total 0
+lrwxrwxrwx 1 elija 197610 20 Mar 14  2020 'My Music' -> /c/Users/elija/Music/     
+lrwxrwxrwx 1 elija 197610 23 Mar 14  2020 'My Pictures' -> /c/Users/elija/Pictures
+lrwxrwxrwx 1 elija 197610 21 Mar 14  2020 'My Videos' -> /c/Users/elija/Videos/   
 
 
 ==========
@@ -59,7 +67,7 @@ $ ls -a Documents
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+ ./   ../  'My Music'@  'My Pictures'@  'My Videos'@
 
 ==========
 5.  Type:
@@ -68,7 +76,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+Yes
 
 
 ==========
@@ -79,7 +87,7 @@ What command was repeated?
 What command was repeated?
 ----------
 
-
+Yes
 
 ==========
 7.  Type:
@@ -88,6 +96,7 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
+It went from /b to /bin and showed the items on it
 
 
 
@@ -98,32 +107,32 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: cannot access 'doesnotexist': No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+Up Arrow
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
+-l 
 
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
-
+TAB
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+Cd
 
 ==========
 13.  Name one argument that we passed to the command.
@@ -157,4 +166,5 @@ Copy and paste the output below.
 $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
+flag is a way to specify different options for the commands. Argument is the input of the command line 
 ----------
