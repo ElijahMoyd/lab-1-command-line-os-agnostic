@@ -31,7 +31,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
+/c/Users/elija/mtec1003
 
 ==========
 5. Type:
@@ -41,7 +41,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals/
 
 
 ==========
@@ -52,7 +52,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals/  food/
 
 
 ==========
@@ -63,7 +63,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals/  foo/  food/
 
 
 ==========
@@ -75,7 +75,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/elija/mtec1003/foo/bar/baz/qux
 
 ==========
 9. Type:
@@ -85,7 +85,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/c/Users/elija/mtec1003/foo/bar
 
 
 ==========
@@ -97,7 +97,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/elija/mtec1003/foo/bar/baz/qux
  
 ==========
 11. Type:
@@ -108,7 +108,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/c/Users/elija/mtec1003
 
 ==========
 12. Type:
@@ -119,7 +119,8 @@ $ ls -l
 
 Copy and paste the first two lines from the output into the space below.
 ----------
-
+drwxr-xr-x 1 elija 197610 0 Sep 22 19:33 foo/
+drwxr-xr-x 1 elija 197610 0 Sep 22 19:32 food/
 
 
 ==========
@@ -130,7 +131,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/c/Users/elija
 
 
 ==========
@@ -141,7 +142,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+Ignore
 
 
 ==========
@@ -152,7 +153,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+cd: /unknown_folder: No such file or directory
 
 
 ==========
@@ -163,13 +164,13 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/c/Users/elija/mtec1003
 
 
 ==========
 16a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+$ pwd
 
 
 ==========
@@ -179,7 +180,7 @@ cd ~/mtec1003
 
 Otherwise skip this question/step!
 ----------
-
+On it
 
 
 ==========
@@ -192,7 +193,7 @@ lemon
 
 Use only one command to make all of these new directories.  Write what command you used below:
 ----------
-
+ mkdir -p pineapple/orange/strawberry/lemon
 
 
 ==========
@@ -200,7 +201,7 @@ Use only one command to make all of these new directories.  Write what command y
 
 Write the command you used to create the directory below:
 ----------
-
+$ mkdir aardvark
 
 
 ==========
@@ -208,7 +209,7 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-
+drwxr-xr-x 1 elija 197610 0 Sep 22 19:49 aardvark/
 
 
 ==========
@@ -220,7 +221,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
+$ mkdir -p foo/bar/baz
 
 
 ==========
@@ -228,7 +229,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+$ cd foo/bar/baz
 
 
 ==========
@@ -236,44 +237,45 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd ../..
 
 ==========
 23. What command is used to delete empty directories?
 ----------
 
-
+$ rmdir
 
 ==========
 24. What command is used to print out your current working directory?
 ----------
-
+$ pwd
 
 
 ==========
 25. What flag do I pass to ls to print out all files?
 ----------
-
+-tl
 
 
 ==========
 26. What's the shortcut for home directory?
 ----------
-
+~
 
 
 ==========
 27. What's a pathname?
 ----------
-
+Location of the file system
 
 
 ==========
 28. What's a directory?
 ----------
-
+It's basically a folder or collection of files.
 
 
 ==========
 29. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/c/Users/elija/Downloads
